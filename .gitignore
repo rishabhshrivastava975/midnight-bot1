@@ -1,0 +1,15 @@
+# secrets - never commit these
+.env
+*.session
+*.session-journal
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# db
+*.db
+
+# os
+.DS_Store
